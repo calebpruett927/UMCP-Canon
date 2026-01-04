@@ -19,3 +19,4 @@ Suggested reading order
 5) REPRODUCIBILITY.md  
 6) GLOSSARY.md (as needed)  
 7) SCOPE.md (as needed)
+https://github.com/calebpruett927/UMCP-Canon/pull/1#issuecomment-3708360782
