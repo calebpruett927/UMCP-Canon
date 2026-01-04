@@ -15,7 +15,7 @@ dependencies = []
 
 [project.optional-dependencies]
 cli = ["pandas>=2.2.0"]
-dev = ["pytest>=8.0.0", "ruff>=0.6.0"]
+dev = ["pytest>=8.0.0", "ruff>=0.6.0", "pre-commit>=3.7.0"]
 
 [project.scripts]
 umcp = "umcp.cli:main"

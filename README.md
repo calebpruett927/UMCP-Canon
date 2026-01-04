@@ -125,3 +125,14 @@ compute = sess.compute(x_series=[[1,2,3,4],[1,2,3,4],[1.1,2,3.1,4]])
 weld = sess.weld(pre_index=0, post_index=2, tau_r=0.8, theta="PHYS-04")
 print(weld.ss1m.pass_ok)
 ```
+
+Development workflow (recommended)
+----------------------------------
+- Install dev tooling: `pip install -e ".[dev]"` then `pre-commit install`
+- Lint: `ruff check .`
+- Tests: `pytest`
+
+EID utilities (optional)
+------------------------
+This repo includes a small `umcp.eid` module for EID mass and the prime-calibration checksum triple.
+These are export/audit utilities and do not modify Tier-1 kernel computation.
